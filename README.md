@@ -1,5 +1,5 @@
 # BMPIO-BITMAP-LIB-C
-Useful and handy C/C++ compatiable header library for import and export bitmap images
+Useful and handy C/C++ compatible header library for import and export bitmap images
 # How to use
 include the header into your project to use,this was written in C for the max performance and compatibility.
 # Functions
@@ -14,7 +14,7 @@ bmpio_writer()
 bmpio_load_from() takes two keywords:
 1."FILE" - to load from path
 2."PIPELINE" - to load from stdo
-note: when load from stdo,filename(path) is the command line execution that produces a stream of desired data(rgb/rgba).
+note: when load from stdo,filename(path) is the command line execution that produces a stream of desired data(rgb).
 
 bmpio_load_as() takes two keywords:
 1."RGB" - to import image as rgb
